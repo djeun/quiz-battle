@@ -8,6 +8,7 @@ let ws = null;
 let myNickname = null;
 let isHost = false;
 let hasAnswered = false;
+let myAnswer = null;    // track which answer was submitted for visual feedback
 let timerInterval = null;
 let localScores = {};   // kept in sync via server messages
 
@@ -116,6 +117,7 @@ const handlers = {
 
   question(msg) {
     hasAnswered = false;
+    myAnswer = null;
     showView("question");
     renderQuestion(msg);
     startTimer(msg.time_limit);
@@ -147,8 +149,14 @@ const handlers = {
     statusEl.classList.remove("hidden");
     $("skip-btn").classList.add("hidden");
 
-    // Disable all choice buttons
-    document.querySelectorAll(".choice-btn").forEach(btn => (btn.disabled = true));
+    // Color the submitted button correct (green) or wrong (red)
+    document.querySelectorAll(".choice-btn").forEach(btn => {
+      if (btn.dataset.answer === myAnswer) {
+        btn.classList.remove("selected-pending");
+        btn.classList.add(msg.correct ? "selected-correct" : "selected-wrong");
+      }
+      btn.disabled = true;
+    });
   },
 
   answer_reveal(msg) {
@@ -225,10 +233,11 @@ function startGame() {
 function submitAnswer(text) {
   if (hasAnswered) return;
   hasAnswered = true;
+  myAnswer = text;
 
-  // Highlight clicked button
+  // Show pending state on clicked button; disable all buttons while waiting
   document.querySelectorAll(".choice-btn").forEach(btn => {
-    if (btn.dataset.answer === text) btn.classList.add("selected-correct");
+    if (btn.dataset.answer === text) btn.classList.add("selected-pending");
     btn.disabled = true;
   });
 

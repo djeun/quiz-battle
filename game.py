@@ -15,14 +15,14 @@ class GameState:
         self.phase = GamePhase.LOBBY
         self.players: list[str] = []           # ordered nicknames; index 0 = host
         self.scores: dict[str, int] = {}       # nickname → cumulative score
-        self.disconnected: set[str] = set()    # mid-game disconnects (score kept)
+        self.disconnected: set[str] = set()    # players who dropped mid-game (still in self.players)
         self.questions: list[dict] = []
         self.current_index: int = -1
-        self.current_choices: list[str] = []   # shuffled choices for active question
+        self.current_choices: list[str] = []
         self.answered: set[str] = set()        # nicknames who answered this question
-        self.first_correct: str | None = None  # first player to answer correctly
+        self.first_correct: str | None = None
         self.question_start_time: float = 0.0
-        self.time_limit: int = 15              # seconds per question
+        self.time_limit: int = 15
 
     # ── Player management ──────────────────────────────────────────────────
 
@@ -39,10 +39,10 @@ class GameState:
             self.disconnected.discard(nickname)
             return True, False
 
-        # Mid-game reconnect — only allowed if they were previously in this game
+        # Mid-game reconnect: player is still in self.players but marked disconnected
         if nickname in self.disconnected:
-            self.players.append(nickname)
-            self.disconnected.discard(nickname)
+            self.disconnected.discard(nickname)   # they're active again
+            # self.players still contains them
             return True, True
 
         return False, False
@@ -50,11 +50,12 @@ class GameState:
     def remove_player(self, nickname: str):
         if nickname not in self.players:
             return
-        self.players.remove(nickname)
         if self.phase == GamePhase.LOBBY:
+            self.players.remove(nickname)
             self.scores.pop(nickname, None)
         else:
-            # Keep score — player may reconnect
+            # Keep in self.players so game isn't short-counted,
+            # but mark disconnected so all_answered() skips them.
             self.disconnected.add(nickname)
 
     @property
@@ -68,7 +69,15 @@ class GameState:
         self.current_index = -1
 
     def advance_question(self) -> dict | None:
-        """Move to next question. Returns question dict, or None if game over."""
+        """Move to next question. Returns question dict, or None if game over.
+        Also cleans up players who are still disconnected from the previous round.
+        """
+        # Purge players who never reconnected between questions
+        for nickname in list(self.disconnected):
+            self.players.remove(nickname)
+            self.scores.pop(nickname, None)
+        self.disconnected.clear()
+
         self.current_index += 1
         if self.current_index >= len(self.questions):
             self.phase = GamePhase.FINAL_RESULTS
@@ -93,11 +102,6 @@ class GameState:
     # ── Answer handling ────────────────────────────────────────────────────
 
     def submit_answer(self, nickname: str, answer_text: str) -> tuple[bool, int]:
-        """
-        Process an answer submission.
-        Returns (is_correct, points_earned).
-        Returns (False, 0) if wrong phase or already answered.
-        """
         if self.phase != GamePhase.QUESTION:
             return False, 0
         if nickname in self.answered:
@@ -109,11 +113,9 @@ class GameState:
 
         if correct:
             if self.first_correct is None:
-                # First to answer correctly
                 points = 200
                 self.first_correct = nickname
             else:
-                # Someone already answered correctly
                 points = 100
             self.scores[nickname] += points
             return True, points
@@ -121,7 +123,14 @@ class GameState:
         return False, 0
 
     def all_answered(self) -> bool:
-        return len(self.players) > 0 and len(self.answered) >= len(self.players)
+        """
+        True when every connected (non-disconnected) player has answered.
+        Disconnected players are skipped — the timer handles them.
+        """
+        active_players = set(self.players) - self.disconnected
+        if not active_players:
+            return False
+        return active_players.issubset(self.answered)
 
     def get_reveal_payload(self) -> dict:
         q = self.current_question
@@ -132,7 +141,6 @@ class GameState:
         }
 
     def reset(self, keep_players: list[str] | None = None):
-        """Reset to lobby for play-again. Pass keep_players to set the roster."""
         roster = keep_players if keep_players is not None else list(self.players)
         self.__init__()
         for name in roster:
@@ -143,7 +151,6 @@ class GameState:
 # ── Answer checking ─────────────────────────────────────────────────────────
 
 def _normalize(text: str) -> str:
-    """Lowercase, strip leading articles, collapse punctuation/whitespace."""
     text = text.strip().lower()
     text = re.sub(r"^(the|a|an)\s+", "", text)
     text = re.sub(r"[^\w\s]", " ", text)
@@ -152,7 +159,6 @@ def _normalize(text: str) -> str:
 
 
 def _edit_distance(a: str, b: str) -> int:
-    """Levenshtein distance between two strings."""
     if len(a) < len(b):
         a, b = b, a
     if not b:
@@ -169,20 +175,15 @@ def _edit_distance(a: str, b: str) -> int:
 def _is_correct(submitted: str, correct: str) -> bool:
     s = _normalize(submitted)
     c = _normalize(correct)
-
     if not s:
         return False
     if s == c or c in s:
         return True
-
-    # Typo tolerance: 1 edit for 4-6 char answers, 2 edits for 7+ char answers
     threshold = 0
     if len(c) >= 7:
         threshold = 2
     elif len(c) >= 4:
         threshold = 1
-
     if threshold and _edit_distance(s, c) <= threshold:
         return True
-
     return False

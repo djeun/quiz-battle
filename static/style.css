@@ -279,6 +279,7 @@ select:focus { border-color: var(--accent); }
 }
 .choice-btn:active:not(:disabled) { transform: scale(.97); }
 .choice-btn:disabled { cursor: default; }
+.choice-btn.selected-pending { border-color: var(--gold);    background: #78350f44; color: var(--gold); }
 .choice-btn.selected-correct { border-color: var(--correct); background: #14532d44; color: var(--correct); }
 .choice-btn.selected-wrong   { border-color: var(--wrong);   background: #7f1d1d44; color: var(--wrong); }
 .choice-btn.reveal-correct   { border-color: var(--correct); background: #14532d44; }

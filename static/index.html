@@ -35,12 +35,12 @@
         <div class="field">
           <label>Question Source</label>
           <select id="source-select" onchange="toggleSourceOptions()">
-            <option value="claude">⚡ Claude AI Generated</option>
             <option value="file">📁 Custom JSON File</option>
+            <option value="claude">⚡ Claude AI Generated</option>
           </select>
         </div>
 
-        <div id="claude-options">
+        <div id="claude-options" class="hidden">
           <div class="field">
             <label>Category</label>
             <select id="category-select">
@@ -73,7 +73,7 @@
           </div>
         </div>
 
-        <div id="file-options" class="hidden">
+        <div id="file-options">
           <div class="field">
             <label>Question Pack</label>
             <select id="filename-select"></select>

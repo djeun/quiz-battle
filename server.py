@@ -270,7 +270,7 @@ async def handle_start(ws: WebSocket, data: dict):
 
     game.load_questions(questions)
     await broadcast({"type": "game_started"})
-    await asyncio.sleep(0.5)
+    await asyncio.sleep(3.5)
     await push_question()
 
 

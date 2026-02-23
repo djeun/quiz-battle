@@ -107,12 +107,21 @@ const handlers = {
 
   game_started() {
     showView("question");
-    $("question-text").textContent = "Loading questions…";
+    $("q-number").textContent = "";
+    $("question-text").textContent = "🎮 Get ready!";
     $("choices-container").innerHTML = "";
     $("answer-status").classList.add("hidden");
     $("skip-btn").classList.add("hidden");
     stopTimer();
-    $("timer-text").textContent = "–";
+
+    // 3-second countdown before first question
+    let count = 3;
+    $("timer-text").textContent = count;
+    const cd = setInterval(() => {
+      count--;
+      $("timer-text").textContent = count > 0 ? count : "–";
+      if (count <= 0) clearInterval(cd);
+    }, 1000);
   },
 
   question(msg) {

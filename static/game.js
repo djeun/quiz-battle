@@ -256,7 +256,7 @@ function renderQuestion(msg) {
   container.innerHTML = (msg.choices || [])
     .map(
       c => `<button class="choice-btn" data-answer="${escAttr(c)}"
-                    onclick="submitAnswer(${JSON.stringify(c)})">${escHtml(c)}</button>`
+                    onclick="submitAnswer(this.dataset.answer)">${escHtml(c)}</button>`
     )
     .join("");
 

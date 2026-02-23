@@ -140,7 +140,11 @@ const handlers = {
   answer_ack(msg) {
     const statusEl = $("answer-status");
     if (msg.correct) {
-      statusEl.textContent = `✓ Correct! +${msg.points} pts`;
+      if (msg.points === 200) {
+        statusEl.textContent = `🥇 Correct! First to answer – +200 pts`;
+      } else {
+        statusEl.textContent = `✅ Correct! Someone was faster – +100 pts`;
+      }
       statusEl.className = "answer-status correct";
     } else if (msg.timeout) {
       statusEl.textContent = "⏱ Not answered – 0 pts";

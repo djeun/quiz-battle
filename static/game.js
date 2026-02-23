@@ -142,6 +142,9 @@ const handlers = {
     if (msg.correct) {
       statusEl.textContent = `✓ Correct! +${msg.points} pts`;
       statusEl.className = "answer-status correct";
+    } else if (msg.timeout) {
+      statusEl.textContent = "⏱ Not answered – 0 pts";
+      statusEl.className = "answer-status wrong";
     } else {
       statusEl.textContent = "✗ Wrong answer – 100 pts";
       statusEl.className = "answer-status wrong";
@@ -149,14 +152,16 @@ const handlers = {
     statusEl.classList.remove("hidden");
     $("skip-btn").classList.add("hidden");
 
-    // Color the submitted button correct (green) or wrong (red)
-    document.querySelectorAll(".choice-btn").forEach(btn => {
-      if (btn.dataset.answer === myAnswer) {
-        btn.classList.remove("selected-pending");
-        btn.classList.add(msg.correct ? "selected-correct" : "selected-wrong");
-      }
-      btn.disabled = true;
-    });
+    // Color the submitted button correct (green) or wrong (red); skip if timed out
+    if (!msg.timeout) {
+      document.querySelectorAll(".choice-btn").forEach(btn => {
+        if (btn.dataset.answer === myAnswer) {
+          btn.classList.remove("selected-pending");
+          btn.classList.add(msg.correct ? "selected-correct" : "selected-wrong");
+        }
+        btn.disabled = true;
+      });
+    }
   },
 
   answer_reveal(msg) {

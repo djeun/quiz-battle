@@ -133,6 +133,17 @@ async def do_reveal(skipped: bool = False):
         question_timer.cancel()
         question_timer = None
 
+    # Notify players who never answered (timeout only, not skip)
+    if not skipped:
+        unanswered_ws = [
+            ws for ws, nick in connections.items()
+            if nick and nick not in game.answered and nick not in game.disconnected
+        ]
+        if unanswered_ws:
+            for ws in unanswered_ws:
+                await send_to(ws, {"type": "answer_ack", "correct": False, "points": 0, "timeout": True})
+            await asyncio.sleep(1)  # let them read "Not answered" before reveal
+
     payload = game.get_reveal_payload()
     if skipped:
         payload["skipped"] = True

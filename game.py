@@ -2,8 +2,6 @@ import re
 import time
 from enum import Enum
 
-from scorer import calculate_points
-
 
 class GamePhase(str, Enum):
     LOBBY = "lobby"
@@ -110,11 +108,14 @@ class GameState:
         correct = _is_correct(answer_text, question["answer"])
 
         if correct:
-            remaining = self.time_remaining()
-            points = calculate_points(remaining, self.time_limit)
-            self.scores[nickname] += points
             if self.first_correct is None:
+                # First to answer correctly
+                points = 200
                 self.first_correct = nickname
+            else:
+                # Someone already answered correctly
+                points = 100
+            self.scores[nickname] += points
             return True, points
 
         return False, 0

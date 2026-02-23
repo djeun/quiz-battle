@@ -107,6 +107,34 @@ input[type="text"]:disabled { opacity: .5; }
 .btn-success:hover:not(:disabled)  { opacity: .85; }
 .btn-skip:hover:not(:disabled)     { color: var(--text); background: #4b5563; }
 
+/* ── Scoring info ──────────────────────────────────────────────────────── */
+.scoring-info {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-top: 16px;
+}
+.scoring-info h3 {
+  font-size: .85rem;
+  color: var(--accent2);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin-bottom: 10px;
+}
+.scoring-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: .9rem;
+  border-bottom: 1px solid var(--border);
+}
+.scoring-row:last-child { border-bottom: none; }
+.scoring-icon { font-size: 1.1rem; width: 24px; text-align: center; }
+.scoring-row span:nth-child(2) { flex: 1; color: var(--muted); }
+.scoring-pts { font-weight: 700; color: var(--gold); }
+
 /* ── Player list ───────────────────────────────────────────────────────── */
 .player-list {
   display: flex;

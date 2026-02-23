@@ -19,6 +19,13 @@
         <button id="join-btn" class="btn btn-primary" onclick="joinGame()">Join</button>
       </div>
 
+      <div class="scoring-info">
+        <h3>⚡ 점수 규칙</h3>
+        <div class="scoring-row"><span class="scoring-icon">🥇</span><span>정답 + 가장 빠름</span><span class="scoring-pts">200점</span></div>
+        <div class="scoring-row"><span class="scoring-icon">✅</span><span>정답 (이미 맞춘 사람 있음)</span><span class="scoring-pts">100점</span></div>
+        <div class="scoring-row"><span class="scoring-icon">❌</span><span>오답 또는 무응답</span><span class="scoring-pts">0점</span></div>
+      </div>
+
       <div id="player-list" class="player-list"></div>
 
       <!-- Host-only controls (shown after joining as host) -->

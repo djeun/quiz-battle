@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd /c type PLAN.md && echo. && echo --- && echo. && type PROGRESS.md"
+          }
+        ]
+      }
+    ]
+  }
+}

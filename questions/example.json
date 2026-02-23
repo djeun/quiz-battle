@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "wrong_answers": ["Ag", "Go", "Gd"]
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "wrong_answers": ["Venus", "Jupiter", "Saturn"]
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "wrong_answers": ["Michelangelo", "Raphael", "Botticelli"]
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "answer": "Tokyo",
+    "wrong_answers": ["Osaka", "Kyoto", "Hiroshima"]
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "answer": "6",
+    "wrong_answers": ["5", "7", "8"]
+  },
+  {
+    "question": "Which element has the atomic number 1?",
+    "answer": "Hydrogen",
+    "wrong_answers": ["Helium", "Lithium", "Oxygen"]
+  },
+  {
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "wrong_answers": ["1943", "1944", "1946"]
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answer": "Pacific Ocean",
+    "wrong_answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare",
+    "wrong_answers": ["Charles Dickens", "Jane Austen", "Geoffrey Chaucer"]
+  },
+  {
+    "question": "What is the speed of light in km/s (approx.)?",
+    "answer": "300000",
+    "wrong_answers": ["150000", "500000", "100000"]
+  },
+  {
+    "question": "Which country invented pizza?",
+    "answer": "Italy",
+    "wrong_answers": ["Greece", "France", "Spain"]
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "answer": "Mount Everest",
+    "wrong_answers": ["K2", "Kangchenjunga", "Lhotse"]
+  },
+  {
+    "question": "How many colors are in a rainbow?",
+    "answer": "7",
+    "wrong_answers": ["5", "6", "8"]
+  },
+  {
+    "question": "Which programming language was created by Guido van Rossum?",
+    "answer": "Python",
+    "wrong_answers": ["Ruby", "Perl", "Java"]
+  },
+  {
+    "question": "What gas do plants absorb during photosynthesis?",
+    "answer": "Carbon dioxide",
+    "wrong_answers": ["Oxygen", "Nitrogen", "Hydrogen"]
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "wrong_answers": ["Buzz Aldrin", "Yuri Gagarin", "John Glenn"]
+  },
+  {
+    "question": "What is the currency of the United Kingdom?",
+    "answer": "Pound sterling",
+    "wrong_answers": ["Euro", "Dollar", "Franc"]
+  },
+  {
+    "question": "Which sport uses the term 'love' for a zero score?",
+    "answer": "Tennis",
+    "wrong_answers": ["Badminton", "Squash", "Table tennis"]
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "answer": "Nile",
+    "wrong_answers": ["Amazon", "Yangtze", "Mississippi"]
+  },
+  {
+    "question": "In what year was the first iPhone released?",
+    "answer": "2007",
+    "wrong_answers": ["2005", "2006", "2008"]
+  }
+]

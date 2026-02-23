@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>⚡ Quiz Battle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- ── LOBBY ────────────────────────────────────────────────────────── -->
+    <div id="view-lobby" class="view active">
+      <h1>⚡ Quiz Battle</h1>
+      <p class="subtitle">Real-time multiplayer trivia for 2–4 players</p>
+
+      <div class="card join-card">
+        <input id="nickname-input" type="text" placeholder="Enter your nickname" maxlength="20" autocomplete="off" />
+        <button id="join-btn" class="btn btn-primary" onclick="joinGame()">Join</button>
+      </div>
+
+      <div id="player-list" class="player-list"></div>
+
+      <!-- Host-only controls (shown after joining as host) -->
+      <div id="host-controls" class="card hidden">
+        <h3>Game Settings</h3>
+
+        <div class="field">
+          <label>Question Source</label>
+          <select id="source-select" onchange="toggleSourceOptions()">
+            <option value="claude">⚡ Claude AI Generated</option>
+            <option value="file">📁 Custom JSON File</option>
+          </select>
+        </div>
+
+        <div id="claude-options">
+          <div class="field">
+            <label>Category</label>
+            <select id="category-select">
+              <option>Mixed</option>
+              <option>Science</option>
+              <option>History</option>
+              <option>Pop Culture</option>
+              <option>Sports</option>
+              <option>Geography</option>
+              <option>Technology</option>
+              <option>Literature</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Difficulty</label>
+            <select id="difficulty-select">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Questions</label>
+            <select id="count-select">
+              <option value="5">5 Questions</option>
+              <option value="10" selected>10 Questions</option>
+              <option value="15">15 Questions</option>
+              <option value="20">20 Questions</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="file-options" class="hidden">
+          <div class="field">
+            <label>Filename (in questions/ folder)</label>
+            <input id="filename-input" type="text" placeholder="example.json" />
+          </div>
+        </div>
+
+        <button id="start-btn" class="btn btn-success" onclick="startGame()">
+          Start Game
+        </button>
+        <p class="hint">Waiting for players to join…</p>
+      </div>
+    </div>
+
+    <!-- ── QUESTION ──────────────────────────────────────────────────────── -->
+    <div id="view-question" class="view hidden">
+      <div class="question-header">
+        <span id="q-number" class="q-number">Q1 / 10</span>
+        <div class="timer-wrap">
+          <div id="timer-bar" class="timer-bar"></div>
+        </div>
+        <span id="timer-text" class="timer-text">15</span>
+        <button id="skip-btn" class="btn btn-skip hidden" onclick="skipQuestion()" title="Skip this question">⏭ Skip</button>
+      </div>
+
+      <div class="question-body">
+        <p id="question-text" class="question-text"></p>
+
+        <div id="choices-container" class="choices"></div>
+
+        <div id="answer-status" class="answer-status hidden"></div>
+      </div>
+
+      <aside id="scores-sidebar" class="scores-sidebar"></aside>
+    </div>
+
+    <!-- ── REVEAL ────────────────────────────────────────────────────────── -->
+    <div id="view-reveal" class="view hidden">
+      <div class="reveal-content">
+        <div id="reveal-answer" class="reveal-answer"></div>
+        <div id="reveal-winner" class="reveal-winner"></div>
+        <div id="reveal-scores" class="leaderboard"></div>
+      </div>
+    </div>
+
+    <!-- ── RESULTS ───────────────────────────────────────────────────────── -->
+    <div id="view-results" class="view hidden">
+      <h2>🏆 Final Results</h2>
+      <div id="podium" class="podium"></div>
+      <div id="final-scores" class="final-scores"></div>
+      <button id="play-again-btn" class="btn btn-primary hidden" onclick="playAgain()">
+        Play Again
+      </button>
+    </div>
+
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>

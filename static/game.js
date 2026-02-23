@@ -150,7 +150,7 @@ const handlers = {
       statusEl.textContent = "⏱ Not answered 0 pts";
       statusEl.className = "answer-status wrong";
     } else {
-      statusEl.textContent = "✗ Wrong answer \u2013100 pts";
+      statusEl.textContent = "✗ Wrong answer -100 pts";
       statusEl.className = "answer-status wrong";
     }
     statusEl.classList.remove("hidden");

@@ -273,6 +273,7 @@ async def handle_answer(ws: WebSocket, data: dict):
     await send_to(ws, {"type": "answer_ack", "correct": correct, "points": points})
 
     if game.all_answered():
+        await asyncio.sleep(1)  # let last player see their answer_ack before reveal
         await do_reveal()
 
 

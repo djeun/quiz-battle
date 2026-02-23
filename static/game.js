@@ -143,7 +143,12 @@ const handlers = {
     localScores = msg.scores || localScores;
     renderResults(msg);
     showView("results");
-    if (isHost) $("play-again-btn").classList.remove("hidden");
+    if (isHost) {
+      $("play-again-btn").classList.remove("hidden");
+      $("waiting-host").classList.add("hidden");
+    } else {
+      $("waiting-host").classList.remove("hidden");
+    }
   },
 
   // Host pressed Play Again — everyone returns to lobby

@@ -107,7 +107,9 @@ async def push_question():
 
 
 async def _auto_reveal(delay: float):
+    global question_timer
     await asyncio.sleep(delay)
+    question_timer = None  # clear before calling do_reveal so it doesn't cancel itself
     await do_reveal()
 
 

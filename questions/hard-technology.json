@@ -1,0 +1,12 @@
+[
+  { "question": "What is the cryptographic hash algorithm used in Bitcoin mining?", "answer": "SHA-256", "wrong_answers": ["MD5", "AES-128", "RSA-2048"] },
+  { "question": "What does SQL stand for?", "answer": "Structured Query Language", "wrong_answers": ["Standard Query Language", "Sequential Query Language", "Simple Query Language"] },
+  { "question": "What is the time complexity of binary search?", "answer": "O(log n)", "wrong_answers": ["O(n)", "O(n²)", "O(1)"] },
+  { "question": "What company created the programming language Java?", "answer": "Sun Microsystems", "wrong_answers": ["Oracle", "Microsoft", "IBM"] },
+  { "question": "What is the name of Linus Torvalds' version control system?", "answer": "Git", "wrong_answers": ["SVN", "Mercurial", "CVS"] },
+  { "question": "What does RISC stand for?", "answer": "Reduced Instruction Set Computer", "wrong_answers": ["Rapid Instruction Set Computer", "Real Instruction Set Computer", "Remote Instruction Set Computer"] },
+  { "question": "In networking, what does OSI stand for?", "answer": "Open Systems Interconnection", "wrong_answers": ["Open Source Interface", "Operational System Interface", "Open Software Integration"] },
+  { "question": "What is the name of the first high-level programming language?", "answer": "Fortran", "wrong_answers": ["COBOL", "LISP", "BASIC"] },
+  { "question": "What is the term for a cyberattack that overwhelms a server with traffic?", "answer": "DDoS", "wrong_answers": ["Phishing", "SQL injection", "Man-in-the-middle"] },
+  { "question": "What does HTTPS stand for?", "answer": "HyperText Transfer Protocol Secure", "wrong_answers": ["HyperText Transfer Protocol Standard", "High Transfer Protocol Secure", "HyperText Transport Protocol System"] }
+]

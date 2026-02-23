@@ -1,0 +1,12 @@
+[
+  { "question": "Who directed '2001: A Space Odyssey'?", "answer": "Stanley Kubrick", "wrong_answers": ["Ridley Scott", "Steven Spielberg", "Andrei Tarkovsky"] },
+  { "question": "What film won the Palme d'Or at Cannes in 2019?", "answer": "Parasite", "wrong_answers": ["Portrait of a Lady on Fire", "Once Upon a Time in Hollywood", "Pain and Glory"] },
+  { "question": "Who played Charles Foster Kane in 'Citizen Kane'?", "answer": "Orson Welles", "wrong_answers": ["Gregory Peck", "Humphrey Bogart", "Cary Grant"] },
+  { "question": "What does 'Rosebud' represent in 'Citizen Kane'?", "answer": "A sled", "wrong_answers": ["A woman", "A mansion", "A trophy"] },
+  { "question": "Who directed 'Apocalypse Now'?", "answer": "Francis Ford Coppola", "wrong_answers": ["Martin Scorsese", "Sidney Lumet", "John Milius"] },
+  { "question": "What year was the silent film 'Metropolis' released?", "answer": "1927", "wrong_answers": ["1921", "1933", "1919"] },
+  { "question": "In what year was 'Casablanca' released?", "answer": "1942", "wrong_answers": ["1940", "1944", "1939"] },
+  { "question": "Who directed 'Seven Samurai'?", "answer": "Akira Kurosawa", "wrong_answers": ["Yasujiro Ozu", "Kenji Mizoguchi", "Mikio Naruse"] },
+  { "question": "What film features the line 'Here's looking at you, kid'?", "answer": "Casablanca", "wrong_answers": ["Citizen Kane", "Sunset Boulevard", "Notorious"] },
+  { "question": "What was the first feature-length animated film?", "answer": "Snow White and the Seven Dwarfs", "wrong_answers": ["Fantasia", "Pinocchio", "Bambi"] }
+]

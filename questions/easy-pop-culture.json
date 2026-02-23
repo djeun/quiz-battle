@@ -1,0 +1,12 @@
+[
+  { "question": "What social media platform is known for short videos?", "answer": "TikTok", "wrong_answers": ["Instagram", "YouTube", "Snapchat"] },
+  { "question": "What streaming service created 'Stranger Things'?", "answer": "Netflix", "wrong_answers": ["HBO", "Amazon Prime", "Disney+"] },
+  { "question": "What is the name of Batman's butler?", "answer": "Alfred", "wrong_answers": ["James", "Henry", "Edmund"] },
+  { "question": "What company makes the iPhone?", "answer": "Apple", "wrong_answers": ["Samsung", "Google", "Microsoft"] },
+  { "question": "Who plays Spider-Man in the MCU?", "answer": "Tom Holland", "wrong_answers": ["Tobey Maguire", "Andrew Garfield", "Tom Hardy"] },
+  { "question": "What is the name of the virtual assistant on Apple devices?", "answer": "Siri", "wrong_answers": ["Alexa", "Cortana", "Google"] },
+  { "question": "What game features a character called Pikachu?", "answer": "Pokémon", "wrong_answers": ["Digimon", "Yu-Gi-Oh", "Dragon Ball"] },
+  { "question": "Who created Facebook?", "answer": "Mark Zuckerberg", "wrong_answers": ["Bill Gates", "Steve Jobs", "Elon Musk"] },
+  { "question": "What does 'LOL' stand for?", "answer": "Laughing out loud", "wrong_answers": ["Lots of love", "Life over laugh", "Lord of laughter"] },
+  { "question": "What company owns Instagram?", "answer": "Meta", "wrong_answers": ["Google", "Twitter", "Snapchat"] }
+]

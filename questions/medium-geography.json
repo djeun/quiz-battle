@@ -1,0 +1,12 @@
+[
+  { "question": "What is the largest hot desert in the world?", "answer": "Sahara", "wrong_answers": ["Arabian", "Gobi", "Kalahari"] },
+  { "question": "What is the deepest lake in the world?", "answer": "Lake Baikal", "wrong_answers": ["Lake Titicaca", "Crater Lake", "Lake Superior"] },
+  { "question": "What is the smallest continent?", "answer": "Australia", "wrong_answers": ["Europe", "Antarctica", "South America"] },
+  { "question": "What river flows through London?", "answer": "Thames", "wrong_answers": ["Severn", "Avon", "Trent"] },
+  { "question": "What is the highest waterfall in the world?", "answer": "Angel Falls", "wrong_answers": ["Niagara Falls", "Victoria Falls", "Iguazu Falls"] },
+  { "question": "What mountain range separates Europe and Asia?", "answer": "Ural Mountains", "wrong_answers": ["Alps", "Caucasus", "Carpathians"] },
+  { "question": "What is the largest island in the world?", "answer": "Greenland", "wrong_answers": ["New Guinea", "Borneo", "Madagascar"] },
+  { "question": "What country has the most natural lakes?", "answer": "Canada", "wrong_answers": ["Russia", "United States", "Finland"] },
+  { "question": "What is the longest mountain range in the world?", "answer": "Andes", "wrong_answers": ["Himalayas", "Rockies", "Alps"] },
+  { "question": "What is the name of the sea between Italy and the Balkans?", "answer": "Adriatic Sea", "wrong_answers": ["Aegean Sea", "Ionian Sea", "Tyrrhenian Sea"] }
+]

@@ -30,6 +30,13 @@ async def root():
     return RedirectResponse(url="/static/index.html")
 
 
+@app.get("/api/question-files")
+async def list_question_files():
+    questions_dir = Path(__file__).parent / "questions"
+    files = sorted(f.name for f in questions_dir.glob("*.json"))
+    return {"files": files}
+
+
 # ── Helpers ────────────────────────────────────────────────────────────────
 
 async def broadcast(message: dict):

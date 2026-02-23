@@ -1,0 +1,12 @@
+[
+  { "question": "Who holds the record for the most goals in a single FIFA World Cup tournament?", "answer": "Just Fontaine", "wrong_answers": ["Ronaldo", "Miroslav Klose", "Gerd Müller"] },
+  { "question": "In what year did Muhammad Ali defeat George Foreman in the 'Rumble in the Jungle'?", "answer": "1974", "wrong_answers": ["1971", "1976", "1975"] },
+  { "question": "Which country has won the most Olympic gold medals in history?", "answer": "United States", "wrong_answers": ["Russia", "China", "Great Britain"] },
+  { "question": "What is the only country to have played in every FIFA World Cup?", "answer": "Brazil", "wrong_answers": ["Germany", "Italy", "Argentina"] },
+  { "question": "In what year did the Boston Red Sox end their 'Curse of the Bambino'?", "answer": "2004", "wrong_answers": ["2003", "2005", "2007"] },
+  { "question": "What swimmer has won the most Olympic medals of any athlete?", "answer": "Michael Phelps", "wrong_answers": ["Larisa Latynina", "Marit Bjørgen", "Nikolai Andrianov"] },
+  { "question": "What is the weight of a men's Olympic shot put in kilograms?", "answer": "7.26", "wrong_answers": ["6", "8", "10"] },
+  { "question": "In which sport would you perform a 'Tsukahara'?", "answer": "Gymnastics", "wrong_answers": ["Diving", "Figure skating", "Trampolining"] },
+  { "question": "In what sport is the 'Davis Cup' awarded?", "answer": "Tennis", "wrong_answers": ["Golf", "Cycling", "Swimming"] },
+  { "question": "What country invented the sport of polo?", "answer": "Persia", "wrong_answers": ["England", "Argentina", "India"] }
+]

@@ -65,6 +65,26 @@ function connect() {
 
 connect();
 
+// Populate file dropdown on load
+async function loadQuestionFiles() {
+  try {
+    const res = await fetch("/api/question-files");
+    const data = await res.json();
+    const select = $("filename-select");
+    const labels = { easy: "🟢", medium: "🟡", hard: "🔴" };
+    select.innerHTML = data.files.map(f => {
+      const [diff, ...rest] = f.replace(".json", "").split("-");
+      const label = labels[diff] || "";
+      const name = rest.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      const display = `${label} ${name} (${diff.charAt(0).toUpperCase() + diff.slice(1)})`;
+      return `<option value="${escAttr(f)}">${display}</option>`;
+    }).join("");
+  } catch (e) {
+    console.error("Failed to load question files:", e);
+  }
+}
+loadQuestionFiles();
+
 // ── Message handlers ───────────────────────────────────────────────────────
 
 const handlers = {
@@ -193,8 +213,8 @@ function startGame() {
     msg.difficulty = $("difficulty-select").value;
     msg.count      = parseInt($("count-select").value);
   } else {
-    msg.filename = $("filename-input").value.trim();
-    if (!msg.filename) { showToast("Enter a filename."); return; }
+    msg.filename = $("filename-select").value;
+    if (!msg.filename) { showToast("No question file selected."); return; }
   }
 
   $("start-btn").disabled = true;

@@ -1,0 +1,12 @@
+[
+  { "question": "What does CPU stand for?", "answer": "Central Processing Unit", "wrong_answers": ["Computer Processing Unit", "Core Processing Unit", "Central Program Unit"] },
+  { "question": "Who co-founded Apple with Steve Jobs?", "answer": "Steve Wozniak", "wrong_answers": ["Bill Gates", "Paul Allen", "Michael Dell"] },
+  { "question": "What does HTML stand for?", "answer": "HyperText Markup Language", "wrong_answers": ["High Tech Machine Language", "HyperText Machine Link", "Home Text Markup Language"] },
+  { "question": "What year was the World Wide Web invented?", "answer": "1989", "wrong_answers": ["1983", "1991", "1995"] },
+  { "question": "What company developed the Android operating system?", "answer": "Google", "wrong_answers": ["Apple", "Microsoft", "Samsung"] },
+  { "question": "What does USB stand for?", "answer": "Universal Serial Bus", "wrong_answers": ["Universal System Bus", "Unified Serial Bus", "Universal Storage Base"] },
+  { "question": "What does RAM stand for?", "answer": "Random Access Memory", "wrong_answers": ["Read Access Memory", "Rapid Array Memory", "Rapid Access Module"] },
+  { "question": "What company owns YouTube?", "answer": "Google", "wrong_answers": ["Meta", "Microsoft", "Amazon"] },
+  { "question": "What is the most widely used operating system for desktops?", "answer": "Windows", "wrong_answers": ["macOS", "Linux", "Chrome OS"] },
+  { "question": "What programming language is most commonly used for web styling?", "answer": "CSS", "wrong_answers": ["JavaScript", "HTML", "PHP"] }
+]

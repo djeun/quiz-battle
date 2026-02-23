@@ -1,0 +1,12 @@
+[
+  { "question": "Who composed 'The Rite of Spring' that caused a riot at its premiere?", "answer": "Igor Stravinsky", "wrong_answers": ["Sergei Prokofiev", "Béla Bartók", "Arnold Schoenberg"] },
+  { "question": "What is the term for a string player plucking the strings?", "answer": "Pizzicato", "wrong_answers": ["Arco", "Tremolo", "Vibrato"] },
+  { "question": "What interval consists of 12 semitones in music theory?", "answer": "Octave", "wrong_answers": ["Perfect fifth", "Major seventh", "Tritone"] },
+  { "question": "Who composed the opera 'La Traviata'?", "answer": "Verdi", "wrong_answers": ["Puccini", "Rossini", "Donizetti"] },
+  { "question": "What is the name of the musical scale that uses only half steps?", "answer": "Chromatic scale", "wrong_answers": ["Major scale", "Minor scale", "Pentatonic scale"] },
+  { "question": "What is the name of Beethoven's only opera?", "answer": "Fidelio", "wrong_answers": ["Leonore", "Egmont", "Prometheus"] },
+  { "question": "Which composer wrote 'Má vlast' (My Homeland)?", "answer": "Smetana", "wrong_answers": ["Dvořák", "Janáček", "Martinů"] },
+  { "question": "What is the term for the recurring theme throughout a Wagner opera?", "answer": "Leitmotif", "wrong_answers": ["Theme", "Motif", "Aria"] },
+  { "question": "Who wrote the symphonic poem 'Also sprach Zarathustra'?", "answer": "Richard Strauss", "wrong_answers": ["Richard Wagner", "Gustav Mahler", "Anton Bruckner"] },
+  { "question": "In what time signature is a waltz typically written?", "answer": "3/4", "wrong_answers": ["4/4", "2/4", "6/8"] }
+]

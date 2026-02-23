@@ -1,0 +1,12 @@
+[
+  { "question": "In what year did the French Revolution begin?", "answer": "1789", "wrong_answers": ["1776", "1804", "1799"] },
+  { "question": "What ship sank after hitting an iceberg in 1912?", "answer": "Titanic", "wrong_answers": ["Lusitania", "Britannic", "Olympic"] },
+  { "question": "What was the name of the first artificial satellite?", "answer": "Sputnik", "wrong_answers": ["Explorer", "Vanguard", "Mercury"] },
+  { "question": "Who was the last Tsar of Russia?", "answer": "Nicholas II", "wrong_answers": ["Alexander III", "Alexander II", "Nicholas I"] },
+  { "question": "What ancient civilization built Machu Picchu?", "answer": "Inca", "wrong_answers": ["Aztec", "Maya", "Toltec"] },
+  { "question": "In what year did World War I begin?", "answer": "1914", "wrong_answers": ["1912", "1916", "1918"] },
+  { "question": "Who was the first person to reach the South Pole?", "answer": "Roald Amundsen", "wrong_answers": ["Robert Scott", "Ernest Shackleton", "Richard Byrd"] },
+  { "question": "In what country did the Industrial Revolution begin?", "answer": "United Kingdom", "wrong_answers": ["France", "Germany", "United States"] },
+  { "question": "Who was Queen Elizabeth I's mother?", "answer": "Anne Boleyn", "wrong_answers": ["Catherine of Aragon", "Jane Seymour", "Catherine Howard"] },
+  { "question": "What ancient wonder of the world was located in Alexandria?", "answer": "Lighthouse", "wrong_answers": ["Library", "Colossus", "Temple"] }
+]

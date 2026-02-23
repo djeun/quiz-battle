@@ -1,0 +1,12 @@
+[
+  { "question": "How many sides does a triangle have?", "answer": "3", "wrong_answers": ["4", "5", "6"] },
+  { "question": "How many days are in a week?", "answer": "7", "wrong_answers": ["5", "6", "8"] },
+  { "question": "What is the boiling point of water in Celsius?", "answer": "100", "wrong_answers": ["50", "75", "212"] },
+  { "question": "How many hours are in a day?", "answer": "24", "wrong_answers": ["12", "36", "48"] },
+  { "question": "What is the largest ocean on Earth?", "answer": "Pacific Ocean", "wrong_answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"] },
+  { "question": "How many continents are there on Earth?", "answer": "7", "wrong_answers": ["5", "6", "8"] },
+  { "question": "What is the capital of the United States?", "answer": "Washington DC", "wrong_answers": ["New York", "Los Angeles", "Chicago"] },
+  { "question": "What shape has four equal sides and four right angles?", "answer": "Square", "wrong_answers": ["Rectangle", "Rhombus", "Trapezoid"] },
+  { "question": "What is the largest planet in our solar system?", "answer": "Jupiter", "wrong_answers": ["Saturn", "Neptune", "Uranus"] },
+  { "question": "How many months are in a year?", "answer": "12", "wrong_answers": ["10", "11", "13"] }
+]

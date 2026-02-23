@@ -1,0 +1,12 @@
+[
+  { "question": "Who is known as the 'King of Pop'?", "answer": "Michael Jackson", "wrong_answers": ["Elvis Presley", "Prince", "David Bowie"] },
+  { "question": "How many strings does a standard guitar have?", "answer": "6", "wrong_answers": ["4", "5", "8"] },
+  { "question": "What band performed 'Bohemian Rhapsody'?", "answer": "Queen", "wrong_answers": ["The Beatles", "Led Zeppelin", "Pink Floyd"] },
+  { "question": "Who sang 'Rolling in the Deep'?", "answer": "Adele", "wrong_answers": ["Beyoncé", "Rihanna", "Taylor Swift"] },
+  { "question": "What country is K-pop from?", "answer": "South Korea", "wrong_answers": ["Japan", "China", "Taiwan"] },
+  { "question": "How many keys does a standard piano have?", "answer": "88", "wrong_answers": ["76", "96", "100"] },
+  { "question": "Who is known as the 'Queen of Pop'?", "answer": "Madonna", "wrong_answers": ["Beyoncé", "Lady Gaga", "Britney Spears"] },
+  { "question": "What instrument does a drummer play?", "answer": "Drums", "wrong_answers": ["Guitar", "Bass", "Keyboard"] },
+  { "question": "What is the lowest male singing voice called?", "answer": "Bass", "wrong_answers": ["Baritone", "Tenor", "Alto"] },
+  { "question": "What band is Mick Jagger the lead singer of?", "answer": "The Rolling Stones", "wrong_answers": ["The Beatles", "Led Zeppelin", "Aerosmith"] }
+]

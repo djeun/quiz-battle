@@ -1,0 +1,12 @@
+[
+  { "question": "What is the capital of Brazil?", "answer": "Brasília", "wrong_answers": ["Rio de Janeiro", "São Paulo", "Salvador"] },
+  { "question": "What is the capital of South Africa?", "answer": "Pretoria", "wrong_answers": ["Cape Town", "Johannesburg", "Durban"] },
+  { "question": "What is the capital of Argentina?", "answer": "Buenos Aires", "wrong_answers": ["Montevideo", "Santiago", "Lima"] },
+  { "question": "What is the capital of India?", "answer": "New Delhi", "wrong_answers": ["Mumbai", "Kolkata", "Chennai"] },
+  { "question": "What is the capital of Egypt?", "answer": "Cairo", "wrong_answers": ["Alexandria", "Luxor", "Giza"] },
+  { "question": "What is the capital of Turkey?", "answer": "Ankara", "wrong_answers": ["Istanbul", "Izmir", "Bursa"] },
+  { "question": "What is the capital of Sweden?", "answer": "Stockholm", "wrong_answers": ["Oslo", "Copenhagen", "Helsinki"] },
+  { "question": "What is the capital of Pakistan?", "answer": "Islamabad", "wrong_answers": ["Karachi", "Lahore", "Peshawar"] },
+  { "question": "What is the capital of Nigeria?", "answer": "Abuja", "wrong_answers": ["Lagos", "Kano", "Ibadan"] },
+  { "question": "What is the capital of Saudi Arabia?", "answer": "Riyadh", "wrong_answers": ["Jeddah", "Mecca", "Medina"] }
+]

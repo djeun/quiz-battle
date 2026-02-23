@@ -1,0 +1,12 @@
+[
+  { "question": "Who was the first President of the United States?", "answer": "George Washington", "wrong_answers": ["John Adams", "Thomas Jefferson", "Benjamin Franklin"] },
+  { "question": "In what year did World War II end?", "answer": "1945", "wrong_answers": ["1943", "1944", "1946"] },
+  { "question": "Who discovered America in 1492?", "answer": "Christopher Columbus", "wrong_answers": ["Amerigo Vespucci", "John Cabot", "Leif Erikson"] },
+  { "question": "In what year did the Berlin Wall fall?", "answer": "1989", "wrong_answers": ["1985", "1991", "1979"] },
+  { "question": "Who was the first woman to win a Nobel Prize?", "answer": "Marie Curie", "wrong_answers": ["Florence Nightingale", "Rosa Parks", "Amelia Earhart"] },
+  { "question": "What country built the Great Wall?", "answer": "China", "wrong_answers": ["Japan", "Korea", "Mongolia"] },
+  { "question": "In what year did Neil Armstrong walk on the Moon?", "answer": "1969", "wrong_answers": ["1967", "1971", "1965"] },
+  { "question": "Who was the Egyptian queen known for her relationship with Julius Caesar?", "answer": "Cleopatra", "wrong_answers": ["Nefertiti", "Hatshepsut", "Isis"] },
+  { "question": "What ancient wonder was located in Egypt?", "answer": "Great Pyramid", "wrong_answers": ["Colosseum", "Parthenon", "Stonehenge"] },
+  { "question": "What empire was Julius Caesar part of?", "answer": "Roman Empire", "wrong_answers": ["Greek Empire", "Ottoman Empire", "Persian Empire"] }
+]

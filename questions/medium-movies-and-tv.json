@@ -1,0 +1,12 @@
+[
+  { "question": "Who directed 'The Dark Knight'?", "answer": "Christopher Nolan", "wrong_answers": ["Tim Burton", "Joel Schumacher", "Zack Snyder"] },
+  { "question": "What TV show features the Stark family?", "answer": "Game of Thrones", "wrong_answers": ["Vikings", "The Last Kingdom", "Outlander"] },
+  { "question": "What year was the first Star Wars film released?", "answer": "1977", "wrong_answers": ["1975", "1979", "1980"] },
+  { "question": "What fictional country is Black Panther set in?", "answer": "Wakanda", "wrong_answers": ["Zamunda", "Genovia", "Latveria"] },
+  { "question": "Who played the Joker in 'The Dark Knight'?", "answer": "Heath Ledger", "wrong_answers": ["Jack Nicholson", "Joaquin Phoenix", "Jared Leto"] },
+  { "question": "What TV show is set in the fictional town of Hawkins, Indiana?", "answer": "Stranger Things", "wrong_answers": ["The Haunting of Hill House", "American Horror Story", "Dark"] },
+  { "question": "Who plays Walter White in 'Breaking Bad'?", "answer": "Bryan Cranston", "wrong_answers": ["Aaron Paul", "Dean Norris", "Bob Odenkirk"] },
+  { "question": "What is the name of the spaceship in 'Alien'?", "answer": "Nostromo", "wrong_answers": ["Prometheus", "Sulaco", "Discovery"] },
+  { "question": "What 2019 film won the Academy Award for Best Picture?", "answer": "Parasite", "wrong_answers": ["1917", "Joker", "Marriage Story"] },
+  { "question": "Who created the TV series 'Breaking Bad'?", "answer": "Vince Gilligan", "wrong_answers": ["David Chase", "David Simon", "Shonda Rhimes"] }
+]

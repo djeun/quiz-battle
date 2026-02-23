@@ -1,0 +1,12 @@
+[
+  { "question": "What band released the album 'Abbey Road'?", "answer": "The Beatles", "wrong_answers": ["The Rolling Stones", "Led Zeppelin", "The Who"] },
+  { "question": "Who composed 'The Four Seasons'?", "answer": "Vivaldi", "wrong_answers": ["Bach", "Handel", "Beethoven"] },
+  { "question": "What instrument is Jimi Hendrix famous for?", "answer": "Guitar", "wrong_answers": ["Bass", "Drums", "Piano"] },
+  { "question": "Who wrote the opera 'The Magic Flute'?", "answer": "Mozart", "wrong_answers": ["Beethoven", "Verdi", "Puccini"] },
+  { "question": "What genre of music originated in New Orleans in the early 1900s?", "answer": "Jazz", "wrong_answers": ["Blues", "Soul", "R&B"] },
+  { "question": "Who sang 'Purple Rain'?", "answer": "Prince", "wrong_answers": ["David Bowie", "Stevie Wonder", "Michael Jackson"] },
+  { "question": "In music, what does 'forte' mean?", "answer": "Loud", "wrong_answers": ["Soft", "Fast", "Slow"] },
+  { "question": "What genre did Elvis Presley help popularize?", "answer": "Rock and roll", "wrong_answers": ["Country", "Blues", "Jazz"] },
+  { "question": "What is the term for the speed of a piece of music?", "answer": "Tempo", "wrong_answers": ["Pitch", "Rhythm", "Meter"] },
+  { "question": "Who composed the 'Goldberg Variations'?", "answer": "Bach", "wrong_answers": ["Handel", "Scarlatti", "Couperin"] }
+]

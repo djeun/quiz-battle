@@ -1,0 +1,12 @@
+[
+  { "question": "What is the capital of France?", "answer": "Paris", "wrong_answers": ["London", "Berlin", "Madrid"] },
+  { "question": "What is the largest country in the world by area?", "answer": "Russia", "wrong_answers": ["Canada", "China", "United States"] },
+  { "question": "Which continent is Egypt in?", "answer": "Africa", "wrong_answers": ["Asia", "Europe", "Middle East"] },
+  { "question": "What is the capital of Japan?", "answer": "Tokyo", "wrong_answers": ["Osaka", "Kyoto", "Beijing"] },
+  { "question": "What is the longest river in the world?", "answer": "Nile", "wrong_answers": ["Amazon", "Yangtze", "Mississippi"] },
+  { "question": "What is the smallest country in the world?", "answer": "Vatican City", "wrong_answers": ["Monaco", "San Marino", "Liechtenstein"] },
+  { "question": "What is the capital of Canada?", "answer": "Ottawa", "wrong_answers": ["Toronto", "Vancouver", "Montreal"] },
+  { "question": "What is the tallest mountain in the world?", "answer": "Mount Everest", "wrong_answers": ["K2", "Kilimanjaro", "Mont Blanc"] },
+  { "question": "What country is the Amazon rainforest mainly in?", "answer": "Brazil", "wrong_answers": ["Peru", "Colombia", "Venezuela"] },
+  { "question": "Which ocean is the smallest?", "answer": "Arctic Ocean", "wrong_answers": ["Indian Ocean", "Southern Ocean", "Atlantic Ocean"] }
+]

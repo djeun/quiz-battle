@@ -1,0 +1,12 @@
+[
+  { "question": "How many Grand Slam tennis tournaments are there?", "answer": "4", "wrong_answers": ["3", "5", "6"] },
+  { "question": "What country has won the most FIFA World Cups?", "answer": "Brazil", "wrong_answers": ["Germany", "Italy", "Argentina"] },
+  { "question": "In what sport is the Stanley Cup awarded?", "answer": "Ice hockey", "wrong_answers": ["Football", "Baseball", "Basketball"] },
+  { "question": "How many players are on a baseball team?", "answer": "9", "wrong_answers": ["10", "11", "8"] },
+  { "question": "What country won the first FIFA World Cup in 1930?", "answer": "Uruguay", "wrong_answers": ["Brazil", "Argentina", "Italy"] },
+  { "question": "In what city were the first modern Olympic Games held in 1896?", "answer": "Athens", "wrong_answers": ["Paris", "London", "Berlin"] },
+  { "question": "What sport is Michael Phelps associated with?", "answer": "Swimming", "wrong_answers": ["Diving", "Water polo", "Triathlon"] },
+  { "question": "What country invented the sport of rugby?", "answer": "England", "wrong_answers": ["France", "Australia", "New Zealand"] },
+  { "question": "How many holes are in a standard golf course?", "answer": "18", "wrong_answers": ["9", "12", "27"] },
+  { "question": "In what sport is the term 'deuce' used?", "answer": "Tennis", "wrong_answers": ["Badminton", "Table tennis", "Squash"] }
+]

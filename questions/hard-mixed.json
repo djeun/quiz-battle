@@ -1,0 +1,12 @@
+[
+  { "question": "What is the fear of the number 13 called?", "answer": "Triskaidekaphobia", "wrong_answers": ["Paraskevidekatriaphobia", "Tetraphobia", "Arithmophobia"] },
+  { "question": "Which element has the highest melting point of all metals?", "answer": "Tungsten", "wrong_answers": ["Rhenium", "Osmium", "Iridium"] },
+  { "question": "What is the term for a word that reads the same forwards and backwards?", "answer": "Palindrome", "wrong_answers": ["Anagram", "Homophone", "Oxymoron"] },
+  { "question": "What does MCMXCIX represent in Roman numerals?", "answer": "1999", "wrong_answers": ["1899", "2000", "1989"] },
+  { "question": "What is the only country in the world with a non-rectangular flag?", "answer": "Nepal", "wrong_answers": ["Switzerland", "Bhutan", "Vatican City"] },
+  { "question": "What is the name of the longest-running animated TV show?", "answer": "The Simpsons", "wrong_answers": ["Family Guy", "South Park", "Scooby-Doo"] },
+  { "question": "What is the smallest bone in the human body?", "answer": "Stapes", "wrong_answers": ["Incus", "Malleus", "Fibula"] },
+  { "question": "How many symphonies did Beethoven compose?", "answer": "9", "wrong_answers": ["7", "8", "10"] },
+  { "question": "What is the chemical name for vitamin C?", "answer": "Ascorbic acid", "wrong_answers": ["Retinol", "Tocopherol", "Niacin"] },
+  { "question": "What is the Milgram experiment famous for studying?", "answer": "Obedience to authority", "wrong_answers": ["Conformity", "Cognitive dissonance", "Social loafing"] }
+]

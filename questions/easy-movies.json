@@ -1,0 +1,12 @@
+[
+  { "question": "Who played Iron Man in the Marvel movies?", "answer": "Robert Downey Jr", "wrong_answers": ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo"] },
+  { "question": "What Disney movie features a character named Simba?", "answer": "The Lion King", "wrong_answers": ["Bambi", "Jungle Book", "Madagascar"] },
+  { "question": "What movie features a fish named Nemo?", "answer": "Finding Nemo", "wrong_answers": ["Shark Tale", "The Little Mermaid", "Blue Planet"] },
+  { "question": "What is the name of the toy cowboy in Toy Story?", "answer": "Woody", "wrong_answers": ["Buzz", "Rex", "Hamm"] },
+  { "question": "What movie features a school for wizards called Hogwarts?", "answer": "Harry Potter", "wrong_answers": ["The Wizard of Oz", "Narnia", "Eragon"] },
+  { "question": "Who played Jack in Titanic?", "answer": "Leonardo DiCaprio", "wrong_answers": ["Brad Pitt", "Johnny Depp", "Tom Hanks"] },
+  { "question": "What animated movie features a panda learning kung fu?", "answer": "Kung Fu Panda", "wrong_answers": ["Mulan", "Moana", "Ratatouille"] },
+  { "question": "Who directed Jurassic Park?", "answer": "Steven Spielberg", "wrong_answers": ["James Cameron", "George Lucas", "Peter Jackson"] },
+  { "question": "What movie features the character Elsa and the song 'Let It Go'?", "answer": "Frozen", "wrong_answers": ["Brave", "Tangled", "Moana"] },
+  { "question": "In what movie does a lion cub become king?", "answer": "The Lion King", "wrong_answers": ["Bambi", "Brother Bear", "Open Season"] }
+]

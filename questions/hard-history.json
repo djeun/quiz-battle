@@ -1,0 +1,12 @@
+[
+  { "question": "What was the name of the treaty that ended World War I?", "answer": "Treaty of Versailles", "wrong_answers": ["Treaty of Paris", "Treaty of Ghent", "Treaty of Utrecht"] },
+  { "question": "Who was the last emperor of the Byzantine Empire?", "answer": "Constantine XI", "wrong_answers": ["Constantine I", "Justinian I", "Basil II"] },
+  { "question": "In what year was the Magna Carta signed?", "answer": "1215", "wrong_answers": ["1066", "1348", "1492"] },
+  { "question": "What civilization invented the first writing system?", "answer": "Sumerians", "wrong_answers": ["Egyptians", "Chinese", "Indus Valley"] },
+  { "question": "In what year did the Soviet Union dissolve?", "answer": "1991", "wrong_answers": ["1989", "1985", "1993"] },
+  { "question": "Who was the first female Prime Minister of the United Kingdom?", "answer": "Margaret Thatcher", "wrong_answers": ["Theresa May", "Angela Merkel", "Golda Meir"] },
+  { "question": "What ancient Egyptian city was called 'the city of a hundred gates'?", "answer": "Thebes", "wrong_answers": ["Babylon", "Carthage", "Troy"] },
+  { "question": "Who wrote 'The Art of War'?", "answer": "Sun Tzu", "wrong_answers": ["Confucius", "Laozi", "Mencius"] },
+  { "question": "What was the name of the first artificial satellite launched into space?", "answer": "Sputnik 1", "wrong_answers": ["Explorer 1", "Vanguard 1", "Cosmos 1"] },
+  { "question": "In what year was the city of Constantinople founded?", "answer": "330", "wrong_answers": ["300", "395", "476"] }
+]

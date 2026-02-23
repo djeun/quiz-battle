@@ -1,0 +1,12 @@
+[
+  { "question": "What is the national animal of Scotland?", "answer": "Unicorn", "wrong_answers": ["Lion", "Stag", "Eagle"] },
+  { "question": "How many teeth does an adult human have?", "answer": "32", "wrong_answers": ["28", "30", "36"] },
+  { "question": "What is the rarest blood type?", "answer": "AB negative", "wrong_answers": ["O negative", "A negative", "B negative"] },
+  { "question": "What is the national language of Brazil?", "answer": "Portuguese", "wrong_answers": ["Spanish", "English", "French"] },
+  { "question": "What is the phobia of spiders called?", "answer": "Arachnophobia", "wrong_answers": ["Entomophobia", "Zoophobia", "Arachnidphobia"] },
+  { "question": "How many time zones does Russia span?", "answer": "11", "wrong_answers": ["9", "13", "7"] },
+  { "question": "What is the world's oldest university?", "answer": "University of Bologna", "wrong_answers": ["Oxford", "Cambridge", "Harvard"] },
+  { "question": "What is the currency of Japan?", "answer": "Yen", "wrong_answers": ["Won", "Yuan", "Ringgit"] },
+  { "question": "What is the largest organ inside the human body?", "answer": "Liver", "wrong_answers": ["Stomach", "Kidney", "Heart"] },
+  { "question": "What is the only country whose flag is square?", "answer": "Switzerland", "wrong_answers": ["Vatican City", "Nepal", "Monaco"] }
+]

@@ -1,0 +1,12 @@
+[
+  { "question": "How many players are on a soccer team?", "answer": "11", "wrong_answers": ["10", "9", "12"] },
+  { "question": "What sport is played at Wimbledon?", "answer": "Tennis", "wrong_answers": ["Cricket", "Golf", "Badminton"] },
+  { "question": "How many players are on a basketball team on court?", "answer": "5", "wrong_answers": ["6", "7", "4"] },
+  { "question": "In what sport do you use a puck?", "answer": "Ice hockey", "wrong_answers": ["Lacrosse", "Field hockey", "Polo"] },
+  { "question": "How many rings are on the Olympic flag?", "answer": "5", "wrong_answers": ["4", "6", "7"] },
+  { "question": "How many points is a touchdown in American football?", "answer": "6", "wrong_answers": ["7", "3", "5"] },
+  { "question": "What sport uses a shuttlecock?", "answer": "Badminton", "wrong_answers": ["Tennis", "Squash", "Volleyball"] },
+  { "question": "In golf, what is the term for one stroke under par?", "answer": "Birdie", "wrong_answers": ["Eagle", "Bogey", "Par"] },
+  { "question": "How many players are in a volleyball team on court?", "answer": "6", "wrong_answers": ["5", "7", "8"] },
+  { "question": "What is the maximum score in ten-pin bowling?", "answer": "300", "wrong_answers": ["200", "250", "400"] }
+]

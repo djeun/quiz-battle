@@ -1,0 +1,12 @@
+[
+  { "question": "What subatomic particle was discovered at CERN in 2012?", "answer": "Higgs boson", "wrong_answers": ["Top quark", "Graviton", "Tachyon"] },
+  { "question": "What is the half-life of carbon-14 in years?", "answer": "5730", "wrong_answers": ["1200", "14000", "8200"] },
+  { "question": "What type of star is a pulsar?", "answer": "Neutron star", "wrong_answers": ["White dwarf", "Red giant", "Brown dwarf"] },
+  { "question": "What is the SI unit of electrical inductance?", "answer": "Henry", "wrong_answers": ["Tesla", "Weber", "Farad"] },
+  { "question": "What is the chemical formula for ozone?", "answer": "O3", "wrong_answers": ["O2", "O4", "H2O2"] },
+  { "question": "What is the boundary around a black hole from which nothing can escape?", "answer": "Event horizon", "wrong_answers": ["Singularity", "Photon sphere", "Accretion disk"] },
+  { "question": "What is the heaviest naturally occurring element?", "answer": "Uranium", "wrong_answers": ["Plutonium", "Thorium", "Radium"] },
+  { "question": "What is the name of the mathematical constant approximately equal to 2.718?", "answer": "Euler's number", "wrong_answers": ["Pi", "Golden ratio", "Fibonacci constant"] },
+  { "question": "What principle states two identical fermions cannot occupy the same quantum state?", "answer": "Pauli exclusion principle", "wrong_answers": ["Heisenberg principle", "Aufbau principle", "Hund's rule"] },
+  { "question": "What is the approximate age of the universe in billion years?", "answer": "13.8", "wrong_answers": ["4.5", "10", "20"] }
+]

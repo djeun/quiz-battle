@@ -1,0 +1,12 @@
+[
+  { "question": "What country is pizza originally from?", "answer": "Italy", "wrong_answers": ["France", "Greece", "Spain"] },
+  { "question": "What is the main ingredient in guacamole?", "answer": "Avocado", "wrong_answers": ["Tomato", "Onion", "Lime"] },
+  { "question": "What country is sushi originally from?", "answer": "Japan", "wrong_answers": ["China", "Korea", "Vietnam"] },
+  { "question": "What fruit is used to make wine?", "answer": "Grapes", "wrong_answers": ["Apples", "Cherries", "Plums"] },
+  { "question": "What nut is used to make peanut butter?", "answer": "Peanut", "wrong_answers": ["Almond", "Cashew", "Walnut"] },
+  { "question": "What color is a ripe banana?", "answer": "Yellow", "wrong_answers": ["Green", "Orange", "Brown"] },
+  { "question": "What is the spicy green paste served with sushi?", "answer": "Wasabi", "wrong_answers": ["Horseradish", "Ginger", "Mustard"] },
+  { "question": "What grain is most commonly used to make beer?", "answer": "Barley", "wrong_answers": ["Wheat", "Rice", "Corn"] },
+  { "question": "What is the main ingredient in hummus?", "answer": "Chickpeas", "wrong_answers": ["Lentils", "Black beans", "Kidney beans"] },
+  { "question": "What is the world's most expensive spice by weight?", "answer": "Saffron", "wrong_answers": ["Vanilla", "Cardamom", "Truffle"] }
+]

@@ -1,0 +1,12 @@
+[
+  { "question": "What planet is closest to the Sun?", "answer": "Mercury", "wrong_answers": ["Venus", "Earth", "Mars"] },
+  { "question": "What gas do plants absorb during photosynthesis?", "answer": "Carbon dioxide", "wrong_answers": ["Oxygen", "Nitrogen", "Hydrogen"] },
+  { "question": "What is H2O commonly known as?", "answer": "Water", "wrong_answers": ["Salt", "Sugar", "Acid"] },
+  { "question": "What is the chemical symbol for gold?", "answer": "Au", "wrong_answers": ["Go", "Gd", "Ag"] },
+  { "question": "What force keeps us on the ground?", "answer": "Gravity", "wrong_answers": ["Magnetism", "Friction", "Inertia"] },
+  { "question": "What is the hardest natural substance?", "answer": "Diamond", "wrong_answers": ["Quartz", "Titanium", "Granite"] },
+  { "question": "How many planets are in our solar system?", "answer": "8", "wrong_answers": ["7", "9", "10"] },
+  { "question": "What organ pumps blood through the body?", "answer": "Heart", "wrong_answers": ["Lungs", "Liver", "Kidney"] },
+  { "question": "How many bones are in the adult human body?", "answer": "206", "wrong_answers": ["185", "215", "300"] },
+  { "question": "What is the center of an atom called?", "answer": "Nucleus", "wrong_answers": ["Electron", "Proton", "Core"] }
+]

@@ -1,0 +1,12 @@
+[
+  { "question": "Who wrote 'Pride and Prejudice'?", "answer": "Jane Austen", "wrong_answers": ["Charlotte Brontë", "Emily Brontë", "George Eliot"] },
+  { "question": "Who wrote 'Crime and Punishment'?", "answer": "Dostoevsky", "wrong_answers": ["Tolstoy", "Turgenev", "Chekhov"] },
+  { "question": "What dystopian novel features a society ruled by 'Big Brother'?", "answer": "1984", "wrong_answers": ["Brave New World", "Fahrenheit 451", "We"] },
+  { "question": "Who wrote 'The Canterbury Tales'?", "answer": "Geoffrey Chaucer", "wrong_answers": ["John Milton", "William Langland", "John Gower"] },
+  { "question": "Who wrote 'The Old Man and the Sea'?", "answer": "Ernest Hemingway", "wrong_answers": ["F. Scott Fitzgerald", "John Steinbeck", "William Faulkner"] },
+  { "question": "Who wrote 'One Hundred Years of Solitude'?", "answer": "Gabriel García Márquez", "wrong_answers": ["Pablo Neruda", "Isabel Allende", "Mario Vargas Llosa"] },
+  { "question": "Who wrote 'Don Quixote'?", "answer": "Cervantes", "wrong_answers": ["Lope de Vega", "Calderón", "Boccaccio"] },
+  { "question": "What Shakespeare play features the characters Oberon and Titania?", "answer": "A Midsummer Night's Dream", "wrong_answers": ["The Tempest", "As You Like It", "The Winter's Tale"] },
+  { "question": "Who wrote 'Moby-Dick'?", "answer": "Herman Melville", "wrong_answers": ["Mark Twain", "Nathaniel Hawthorne", "Edgar Allan Poe"] },
+  { "question": "What is the name of the narrator in 'Great Expectations'?", "answer": "Pip", "wrong_answers": ["Oliver", "David", "Herbert"] }
+]

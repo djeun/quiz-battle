@@ -1,0 +1,12 @@
+[
+  { "question": "What is the name of the longest-serving US president?", "answer": "Franklin D. Roosevelt", "wrong_answers": ["Grover Cleveland", "Woodrow Wilson", "Harry Truman"] },
+  { "question": "What is the chemical formula for aspirin?", "answer": "C9H8O4", "wrong_answers": ["C8H9NO2", "C6H12O6", "C12H22O11"] },
+  { "question": "In what year was the United Nations founded?", "answer": "1945", "wrong_answers": ["1919", "1950", "1942"] },
+  { "question": "What is the name of the highest US military honor?", "answer": "Medal of Honor", "wrong_answers": ["Purple Heart", "Silver Star", "Distinguished Service Cross"] },
+  { "question": "What world record does the Kola Superdeep Borehole hold?", "answer": "Deepest artificial point on Earth", "wrong_answers": ["Longest tunnel", "Largest underground cave", "Deepest oil well"] },
+  { "question": "What is the name of the enzyme that unzips DNA during replication?", "answer": "Helicase", "wrong_answers": ["Polymerase", "Ligase", "Topoisomerase"] },
+  { "question": "What is the longest river in Europe?", "answer": "Volga", "wrong_answers": ["Danube", "Rhine", "Dnieper"] },
+  { "question": "What is the Black-Scholes model used for in finance?", "answer": "Options pricing", "wrong_answers": ["Predicting stock crashes", "Measuring inflation", "Calculating bond yields"] },
+  { "question": "What is the study of flags called?", "answer": "Vexillology", "wrong_answers": ["Heraldry", "Numismatics", "Sigillography"] },
+  { "question": "What is the name of the Japanese art of flower arrangement?", "answer": "Ikebana", "wrong_answers": ["Origami", "Bonsai", "Ikigai"] }
+]

@@ -1,0 +1,12 @@
+[
+  { "question": "Who wrote 'Ulysses'?", "answer": "James Joyce", "wrong_answers": ["Samuel Beckett", "T.S. Eliot", "Virginia Woolf"] },
+  { "question": "What is the name of the narrator in 'Moby-Dick'?", "answer": "Ishmael", "wrong_answers": ["Ahab", "Starbuck", "Queequeg"] },
+  { "question": "In which language was Dante's 'Divine Comedy' originally written?", "answer": "Italian", "wrong_answers": ["Latin", "French", "Sicilian"] },
+  { "question": "What novel begins with the line 'Call me Ishmael'?", "answer": "Moby-Dick", "wrong_answers": ["Billy Budd", "The Sea Wolf", "Lord Jim"] },
+  { "question": "Who wrote 'The Brothers Karamazov'?", "answer": "Dostoevsky", "wrong_answers": ["Tolstoy", "Turgenev", "Gorky"] },
+  { "question": "What is the name of the protagonist in James Joyce's 'Ulysses'?", "answer": "Leopold Bloom", "wrong_answers": ["Stephen Dedalus", "Molly Bloom", "Buck Mulligan"] },
+  { "question": "Who wrote 'One Flew Over the Cuckoo's Nest'?", "answer": "Ken Kesey", "wrong_answers": ["Kurt Vonnegut", "Joseph Heller", "Philip K. Dick"] },
+  { "question": "What was F. Scott Fitzgerald's first published novel?", "answer": "This Side of Paradise", "wrong_answers": ["The Beautiful and Damned", "Tender is the Night", "The Great Gatsby"] },
+  { "question": "What country is Nobel Prize-winning author Gabriel García Márquez from?", "answer": "Colombia", "wrong_answers": ["Mexico", "Argentina", "Venezuela"] },
+  { "question": "Who wrote 'The Sound and the Fury'?", "answer": "William Faulkner", "wrong_answers": ["Ernest Hemingway", "John Steinbeck", "Sinclair Lewis"] }
+]

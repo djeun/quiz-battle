@@ -1,0 +1,12 @@
+[
+  { "question": "What is the fastest land animal?", "answer": "Cheetah", "wrong_answers": ["Lion", "Leopard", "Horse"] },
+  { "question": "How many legs does a spider have?", "answer": "8", "wrong_answers": ["6", "4", "10"] },
+  { "question": "What is the tallest animal in the world?", "answer": "Giraffe", "wrong_answers": ["Elephant", "Camel", "Ostrich"] },
+  { "question": "What do pandas mainly eat?", "answer": "Bamboo", "wrong_answers": ["Fish", "Berries", "Leaves"] },
+  { "question": "How many legs does an insect have?", "answer": "6", "wrong_answers": ["4", "8", "10"] },
+  { "question": "What is a group of lions called?", "answer": "Pride", "wrong_answers": ["Pack", "Herd", "Flock"] },
+  { "question": "Which bird cannot fly?", "answer": "Penguin", "wrong_answers": ["Eagle", "Parrot", "Flamingo"] },
+  { "question": "What animal has black and white stripes?", "answer": "Zebra", "wrong_answers": ["Tiger", "Panda", "Skunk"] },
+  { "question": "How many arms does an octopus have?", "answer": "8", "wrong_answers": ["6", "4", "10"] },
+  { "question": "What is the largest land animal?", "answer": "Elephant", "wrong_answers": ["Hippopotamus", "Rhinoceros", "Giraffe"] }
+]

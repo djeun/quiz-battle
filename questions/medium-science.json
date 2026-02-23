@@ -1,0 +1,12 @@
+[
+  { "question": "What is the atomic number of carbon?", "answer": "6", "wrong_answers": ["8", "12", "14"] },
+  { "question": "What is the powerhouse of the cell?", "answer": "Mitochondria", "wrong_answers": ["Nucleus", "Ribosome", "Chloroplast"] },
+  { "question": "What is the chemical formula for table salt?", "answer": "NaCl", "wrong_answers": ["NaF", "KCl", "CaCl2"] },
+  { "question": "What is the most abundant gas in Earth's atmosphere?", "answer": "Nitrogen", "wrong_answers": ["Oxygen", "Carbon dioxide", "Argon"] },
+  { "question": "What is the study of earthquakes called?", "answer": "Seismology", "wrong_answers": ["Geology", "Volcanology", "Tectonics"] },
+  { "question": "What is the chemical symbol for iron?", "answer": "Fe", "wrong_answers": ["Ir", "In", "Io"] },
+  { "question": "How many chromosomes do humans have?", "answer": "46", "wrong_answers": ["23", "48", "44"] },
+  { "question": "What type of radiation has the shortest wavelength?", "answer": "Gamma rays", "wrong_answers": ["X-rays", "Ultraviolet", "Microwaves"] },
+  { "question": "What is the largest organ in the human body?", "answer": "Skin", "wrong_answers": ["Liver", "Lung", "Intestine"] },
+  { "question": "What is absolute zero in Celsius (rounded)?", "answer": "-273", "wrong_answers": ["-100", "-200", "-300"] }
+]

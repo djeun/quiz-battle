@@ -1,0 +1,12 @@
+[
+  { "question": "What is the capital of Kazakhstan?", "answer": "Astana", "wrong_answers": ["Almaty", "Bishkek", "Tashkent"] },
+  { "question": "What is the name of the deepest ocean trench?", "answer": "Mariana Trench", "wrong_answers": ["Puerto Rico Trench", "Tonga Trench", "Java Trench"] },
+  { "question": "What is the largest lake in Africa?", "answer": "Lake Victoria", "wrong_answers": ["Lake Tanganyika", "Lake Chad", "Lake Malawi"] },
+  { "question": "What country has the longest coastline in the world?", "answer": "Canada", "wrong_answers": ["Russia", "Norway", "Indonesia"] },
+  { "question": "What is the name of the strait between Spain and Morocco?", "answer": "Strait of Gibraltar", "wrong_answers": ["Strait of Messina", "Strait of Hormuz", "Strait of Malacca"] },
+  { "question": "In which country is Mount Kilimanjaro located?", "answer": "Tanzania", "wrong_answers": ["Kenya", "Uganda", "Ethiopia"] },
+  { "question": "What is the name of the deepest lake in Africa?", "answer": "Lake Tanganyika", "wrong_answers": ["Lake Victoria", "Lake Malawi", "Lake Albert"] },
+  { "question": "What European country has the most UNESCO World Heritage Sites?", "answer": "Italy", "wrong_answers": ["France", "Spain", "Germany"] },
+  { "question": "What is the name of the sea between Australia and New Zealand?", "answer": "Tasman Sea", "wrong_answers": ["Coral Sea", "Timor Sea", "Arafura Sea"] },
+  { "question": "What is the longest river in Europe?", "answer": "Volga", "wrong_answers": ["Danube", "Rhine", "Dnieper"] }
+]

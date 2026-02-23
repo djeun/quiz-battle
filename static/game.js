@@ -141,16 +141,16 @@ const handlers = {
     const statusEl = $("answer-status");
     if (msg.correct) {
       if (msg.points === 200) {
-        statusEl.textContent = "Correct! First to answer +200 pts";
+        statusEl.textContent = "🥇 Correct! First to answer +200 pts";
       } else {
-        statusEl.textContent = "Correct! Someone was faster +100 pts";
+        statusEl.textContent = "✅ Correct! Someone was faster +100 pts";
       }
       statusEl.className = "answer-status correct";
     } else if (msg.timeout) {
-      statusEl.textContent = "Not answered 0 pts";
+      statusEl.textContent = "⏱ Not answered 0 pts";
       statusEl.className = "answer-status wrong";
     } else {
-      statusEl.textContent = "Wrong answer \u2013100 pts";
+      statusEl.textContent = "✗ Wrong answer \u2013100 pts";
       statusEl.className = "answer-status wrong";
     }
     statusEl.classList.remove("hidden");

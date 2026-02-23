@@ -55,20 +55,25 @@ async def send_to(ws: WebSocket, message: dict):
 
 async def _on_disconnect(ws: WebSocket):
     """Handle a dead / departing WebSocket."""
+    global question_timer
+
     nickname = connections.pop(ws, None)
     if not nickname:
         return
     game.remove_player(nickname)
+
+    # If no one with a nickname is left, fully reset so the next group can start fresh
+    if not any(connections.values()):
+        if question_timer and not question_timer.done():
+            question_timer.cancel()
+            question_timer = None
+        game.__init__()
+        return
+
     if game.phase == GamePhase.LOBBY:
         await broadcast({"type": "player_joined", "players": game.players})
     else:
         await broadcast({"type": "player_left", "nickname": nickname, "players": game.players})
-        # If everyone left mid-game, clean up
-        if not game.players and not game.disconnected:
-            global question_timer
-            if question_timer and not question_timer.done():
-                question_timer.cancel()
-                question_timer = None
 
 
 # ── Game flow helpers ──────────────────────────────────────────────────────

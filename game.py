@@ -120,7 +120,9 @@ class GameState:
             self.scores[nickname] += points
             return True, points
 
-        return False, 0
+        # Wrong answer: deduct 100 points
+        self.scores[nickname] -= 100
+        return False, -100
 
     def all_answered(self) -> bool:
         """

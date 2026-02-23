@@ -143,7 +143,7 @@ const handlers = {
       statusEl.textContent = `✓ Correct! +${msg.points} pts`;
       statusEl.className = "answer-status correct";
     } else {
-      statusEl.textContent = "✗ Wrong answer – 0 pts";
+      statusEl.textContent = "✗ Wrong answer – 100 pts";
       statusEl.className = "answer-status wrong";
     }
     statusEl.classList.remove("hidden");
